@@ -1,6 +1,4 @@
 
-
-
 <html lang="es">
 <head>
 <meta charset="UTF-8">
@@ -559,7 +557,7 @@
   }
   .incluye-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 1px;
     background: rgba(201,168,76,0.08);
   }
@@ -1490,7 +1488,6 @@
     <li><a href="#proceso">Proceso</a></li>
     <li><a href="#precio">Inversión</a></li>
     <li><a href="#premio">Premio</a></li>
-    <li><a href="#app">App</a></li>
     <li><a href="#faq">FAQ</a></li>
   </ul>
   <a href="https://wa.me/50684354162" class="nav-cta">Inscríbete ahora</a>
@@ -1512,13 +1509,13 @@
       <span class="line3">10 Semanas</span>
     </h1>
     <p class="hero-desc">
-      El programa de transformación corporal más completo de Costa Rica. Ciencia médica, tecnología, nutrición personalizada y seguimiento clínico semanal.
+      El programa de transformación corporal más completo de Costa Rica. Ciencia médica, tecnología, nutrición, entrenamiento y seguimiento clínico semanal.
     </p>
     <div class="hero-checks">
       <div class="hero-check"><div class="check-icon">✓</div> Evaluación médica completa + laboratorios</div>
       <div class="hero-check"><div class="check-icon">✓</div> Seguimiento clínico semanal especializado</div>
-      <div class="hero-check"><div class="check-icon">✓</div> Nutrición + entrenamiento personalizados</div>
-      <div class="hero-check"><div class="check-icon">✓</div> App de progreso con gamificación</div>
+      <div class="hero-check"><div class="check-icon">✓</div> Plan nutricional y entrenamiento incluidos</div>
+      <div class="hero-check"><div class="check-icon">✓</div> Acompañamiento metabólico médico</div>
     </div>
     <div class="hero-actions">
       <a href="https://wa.me/50684354162" class="btn-primary"><span>Reservar cupo — USD $1,000</span></a>
@@ -1629,12 +1626,11 @@
         </svg>
       </div>
       <div class="incluye-card-title">Evaluación Inicial</div>
-      <div class="incluye-card-desc">Diagnóstico clínico completo para diseñar tu plan personalizado.</div>
+      <div class="incluye-card-desc">Diagnóstico clínico completo al inicio del programa.</div>
       <ul class="incluye-card-items">
         <li>Historia clínica detallada</li>
         <li>Análisis corporal + bioimpedancia</li>
         <li>Laboratorios metabólicos y hormonales</li>
-        <li>Valoración nutricional</li>
         <li>Fotografías evolutivas iniciales</li>
       </ul>
     </div>
@@ -1653,9 +1649,7 @@
       <div class="incluye-card-desc">Monitoreo médico continuo cada semana durante las 10 semanas.</div>
       <ul class="incluye-card-items">
         <li>Consulta médica semanal</li>
-        <li>Ajuste de plan nutricional</li>
         <li>Revisión de métricas corporales</li>
-        <li>Optimización del programa</li>
         <li>Fotografías evolutivas comparativas</li>
       </ul>
     </div>
@@ -1673,9 +1667,8 @@
       <div class="incluye-card-title">Acompañamiento Metabólico</div>
       <div class="incluye-card-desc">Optimización hormonal y metabólica con protocolo clínico especializado.</div>
       <ul class="incluye-card-items">
-        <li>Protocolo médico individualizado</li>
+        <li>Protocolo médico clínico</li>
         <li>Optimización hormonal y metabólica</li>
-        <li>Ajustes basados en laboratorios</li>
         <li>Monitoreo de respuesta clínica</li>
       </ul>
     </div>
@@ -1689,13 +1682,12 @@
           <path d="M8 32h24" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
         </svg>
       </div>
-      <div class="incluye-card-title">Nutrición Personalizada</div>
-      <div class="incluye-card-desc">Plan alimenticio diseñado para tu metabolismo, objetivos y estilo de vida.</div>
+      <div class="incluye-card-title">Plan Nutricional</div>
+      <div class="incluye-card-desc">Plan alimenticio estructurado para acompañar todo el programa durante las 10 semanas.</div>
       <ul class="incluye-card-items">
         <li>Plan nutricional semanal</li>
         <li>Recetas y guías de preparación</li>
-        <li>Control de macros en la app</li>
-        <li>Ajuste según progreso y laboratorios</li>
+        <li>Orientación sobre macronutrientes</li>
       </ul>
     </div>
 
@@ -1711,36 +1703,15 @@
           <circle cx="28" cy="18" r="3" stroke="currentColor" stroke-width="1.5"/>
         </svg>
       </div>
-      <div class="incluye-card-title">Entrenamiento Guiado</div>
-      <div class="incluye-card-desc">Rutinas diseñadas para maximizar tu transformación corporal con guía experta.</div>
+      <div class="incluye-card-title">Plan de Entrenamiento</div>
+      <div class="incluye-card-desc">Rutinas estructuradas para maximizar tu transformación corporal durante el programa.</div>
       <ul class="incluye-card-items">
-        <li>Rutinas personalizadas por semana</li>
-        <li>Videos explicativos en la app</li>
+        <li>Rutinas semanales estructuradas</li>
+        <li>Guía de ejecución por semana</li>
         <li>Progresión controlada y segura</li>
-        <li>Adaptación a condición física</li>
       </ul>
     </div>
 
-    <!-- Card 6 -->
-    <div class="incluye-card animate-on-scroll">
-      <div class="incluye-card-num">06 —</div>
-      <div class="incluye-card-icon">
-        <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <rect x="10" y="6" width="20" height="28" rx="4" stroke="currentColor" stroke-width="1.5"/>
-          <path d="M16 16h8M16 22h6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-          <circle cx="20" cy="30" r="2" fill="currentColor"/>
-        </svg>
-      </div>
-      <div class="incluye-card-title">App Rejuvenese</div>
-      <div class="incluye-card-desc">Tu transformación en tiempo real, en la palma de tu mano.</div>
-      <ul class="incluye-card-items">
-        <li>Dashboard de métricas corporales</li>
-        <li>Registro de comidas y rutinas</li>
-        <li>Progreso visual con fotos</li>
-        <li>Gamificación y ranking de reto</li>
-        <li>Recordatorios y citas médicas</li>
-      </ul>
-    </div>
   </div>
 </section>
 
@@ -1771,8 +1742,8 @@
         <div class="proceso-dot">01</div>
         <div>
           <div class="proceso-step-label">Semana 1</div>
-          <div class="proceso-step-title">Evaluación Integral</div>
-          <div class="proceso-step-desc">Historia clínica, bioimpedancia, laboratorios metabólicos y hormonales, valoración nutricional, fotografías basales. Tu punto de partida documentado.</div>
+          <div class="proceso-step-title">Evaluación Inicial</div>
+          <div class="proceso-step-desc">Historia clínica, bioimpedancia, laboratorios metabólicos y hormonales, fotografías basales. Tu punto de partida documentado.</div>
         </div>
       </div>
       <div class="proceso-step">
@@ -1780,7 +1751,7 @@
         <div>
           <div class="proceso-step-label">Semanas 2–4</div>
           <div class="proceso-step-title">Activación Metabólica</div>
-          <div class="proceso-step-desc">Inicio del protocolo nutricional y de entrenamiento. Primera aplicación del acompañamiento metabólico médico. Adaptación progresiva controlada.</div>
+          <div class="proceso-step-desc">Inicio del protocolo nutricional y de entrenamiento. Primera aplicación del acompañamiento metabólico médico. Incorporación progresiva al programa.</div>
         </div>
       </div>
       <div class="proceso-step">
@@ -1788,7 +1759,7 @@
         <div>
           <div class="proceso-step-label">Semanas 5–7</div>
           <div class="proceso-step-title">Fase de Aceleración</div>
-          <div class="proceso-step-desc">Máxima intensidad metabólica. Seguimiento médico semanal con ajustes precisos. Monitoreo de métricas: peso, composición, grasa, músculo.</div>
+          <div class="proceso-step-desc">Máxima intensidad metabólica. Seguimiento médico semanal continuo. Monitoreo de métricas: peso, composición, grasa, músculo.</div>
         </div>
       </div>
       <div class="proceso-step">
@@ -1796,7 +1767,7 @@
         <div>
           <div class="proceso-step-label">Semanas 8–9</div>
           <div class="proceso-step-title">Consolidación y Definición</div>
-          <div class="proceso-step-desc">Ajuste final del protocolo. Fotografías evolutivas comparativas. Preparación para la evaluación final y documentación de resultados.</div>
+          <div class="proceso-step-desc">Seguimiento clínico final. Fotografías evolutivas comparativas. Preparación para la evaluación final y documentación de resultados.</div>
         </div>
       </div>
       <div class="proceso-step">
