@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -21,18 +20,19 @@
   </div>
 </header>
 
-<section class="hero" style="grid-template-columns:1fr; max-width:900px; padding-bottom:30px;">
-  <div>
-    <p class="eyebrow">Contacto</p>
-    <h1>Escríbenos o visítanos</h1>
-    <p class="lede">Confirma disponibilidad y horario con la sede más cercana a ti antes de tu visita.</p>
+<section class="hero">
+  <div class="hero-inner" style="grid-template-columns:1fr; max-width:800px; padding-bottom:60px;">
+    <div>
+      <p class="eyebrow" style="color:var(--gold-light);">Contacto</p>
+      <h1>Escríbenos <em>o visítanos</em></h1>
+      <p class="lede">Confirma disponibilidad y horario con la sede más cercana a ti antes de tu visita.</p>
+    </div>
   </div>
 </section>
 
-<hr class="rule">
-
 <section class="tight">
   <div class="section-head">
+    <div class="gold-rule"></div>
     <p class="eyebrow">Nuestras sedes</p>
     <h2>Cuatro puntos en el Valle Central</h2>
   </div>
@@ -64,43 +64,44 @@
   </div>
 </section>
 
-<hr class="rule">
-
-<section class="tight">
+<section class="tight" style="background:var(--white);">
   <div class="split">
     <div>
+      <div class="gold-rule" style="margin:0 0 18px;"></div>
       <p class="eyebrow">Escríbenos</p>
       <h2>Cuéntanos qué buscas</h2>
-      <p style="margin-top:16px; color:#4A4A40;">Respondemos en 1–2 días hábiles para coordinar tu valoración en la sede que prefieras.</p>
+      <p style="margin-top:16px; color:var(--muted);">Respondemos en 1–2 días hábiles para coordinar tu valoración en la sede que prefieras.</p>
     </div>
-    <form class="contact-form" onsubmit="event.preventDefault(); document.getElementById('form-success').style.display='block'; this.reset();">
-      <div class="field-row">
-        <div class="field">
-          <label for="name">Nombre completo</label>
-          <input type="text" id="name" name="name" required>
+    <div class="panel">
+      <form class="contact-form" onsubmit="event.preventDefault(); document.getElementById('form-success').style.display='block'; this.reset();">
+        <div class="field-row">
+          <div class="field">
+            <label for="name">Nombre completo</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="field">
+            <label for="phone">Teléfono</label>
+            <input type="tel" id="phone" name="phone" required>
+          </div>
         </div>
         <div class="field">
-          <label for="phone">Teléfono</label>
-          <input type="tel" id="phone" name="phone" required>
+          <label for="location">Sede de preferencia</label>
+          <select id="location" name="location">
+            <option>Guadalupe</option>
+            <option>Heredia</option>
+            <option>Alajuela</option>
+            <option>Desamparados</option>
+            <option>Aún no sé</option>
+          </select>
         </div>
-      </div>
-      <div class="field">
-        <label for="location">Sede de preferencia</label>
-        <select id="location" name="location">
-          <option>Guadalupe</option>
-          <option>Heredia</option>
-          <option>Alajuela</option>
-          <option>Desamparados</option>
-          <option>Aún no sé</option>
-        </select>
-      </div>
-      <div class="field">
-        <label for="message">¿En qué podemos ayudarte?</label>
-        <textarea id="message" name="message" rows="4"></textarea>
-      </div>
-      <button type="submit" class="btn primary" style="border:none; cursor:pointer;">Enviar mensaje</button>
-      <p id="form-success" style="display:none; margin-top:16px; color:var(--sage-deep);">Gracias — recibimos tu mensaje y te contactaremos pronto.</p>
-    </form>
+        <div class="field">
+          <label for="message">¿En qué podemos ayudarte?</label>
+          <textarea id="message" name="message" rows="4"></textarea>
+        </div>
+        <button type="submit" class="btn primary" style="border:none; cursor:pointer;">Enviar mensaje</button>
+        <p id="form-success" style="display:none; margin-top:16px; color:var(--gold-dark); font-weight:500;">Gracias — recibimos tu mensaje y te contactaremos pronto.</p>
+      </form>
+    </div>
   </div>
 </section>
 
