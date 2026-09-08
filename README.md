@@ -1,8 +1,515 @@
-[contacto.html](https://github.com/user-attachments/files/31931605/contacto.html)
-[index.html](https://github.com/user-attachments/files/31931606/index.html)[style.css](https://github.com/user-attachments/files/31931609/style.css)
-[servicios.html](https://github.com/user-attachments/files/31931608/servicios.html)
-[nosotros.html](https://github.com/user-attachments/files/31931607/nosotros.html)
-[style.css](https://github.com/user-attachments/files/31931612/style.css)
+[contacto.html](https://github.com/user-attachments/files/31931667/contacto.html)
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contacto · Clínica Rejuvenese</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-nav">
+  <div class="nav-inner">
+    <a href="index.html" class="brand">Rejuvenese</a>
+    <nav class="links">
+      <a href="index.html">Inicio</a>
+      <a href="nosotros.html">Nosotros</a>
+      <a href="servicios.html">Servicios</a>
+      <a href="contacto.html" class="active">Contacto</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero" style="grid-template-columns:1fr; max-width:900px; padding-bottom:30px;">
+  <div>
+    <p class="eyebrow">Contacto</p>
+    <h1>Escríbenos o visítanos</h1>
+    <p class="lede">Confirma disponibilidad y horario con la sede más cercana a ti antes de tu visita.</p>
+  </div>
+</section>
+
+<hr class="rule">
+
+<section class="tight">
+  <div class="section-head">
+    <p class="eyebrow">Nuestras sedes</p>
+    <h2>Cuatro puntos en el Valle Central</h2>
+  </div>
+  <div class="locations-grid">
+    <div class="location-card">
+      <h3>Guadalupe</h3>
+      <p class="region">San José</p>
+      <p>Uniplaza Mall, local 19, diagonal.</p>
+      <a class="link-gold" href="tel:+50640400808">Llamar para confirmar horario →</a>
+    </div>
+    <div class="location-card">
+      <h3>Heredia</h3>
+      <p class="region">Heredia</p>
+      <p>Centro Comercial Gariana, diagonal a Walmart.</p>
+      <a class="link-gold" href="tel:+50640400808">Llamar para confirmar horario →</a>
+    </div>
+    <div class="location-card">
+      <h3>Alajuela</h3>
+      <p class="region">Alajuela</p>
+      <p>Centro Comercial Mango Plaza, local #8.</p>
+      <a class="link-gold" href="tel:+50640400808">Llamar para confirmar horario →</a>
+    </div>
+    <div class="location-card">
+      <h3>Desamparados</h3>
+      <p class="region">San José</p>
+      <p>200m al norte de la Rotonda de Desamparados, 2º piso, local #32.</p>
+      <a class="link-gold" href="tel:+50640400808">Llamar para confirmar horario →</a>
+    </div>
+  </div>
+</section>
+
+<hr class="rule">
+
+<section class="tight">
+  <div class="split">
+    <div>
+      <p class="eyebrow">Escríbenos</p>
+      <h2>Cuéntanos qué buscas</h2>
+      <p style="margin-top:16px; color:#4A4A40;">Respondemos en 1–2 días hábiles para coordinar tu valoración en la sede que prefieras.</p>
+    </div>
+    <form class="contact-form" onsubmit="event.preventDefault(); document.getElementById('form-success').style.display='block'; this.reset();">
+      <div class="field-row">
+        <div class="field">
+          <label for="name">Nombre completo</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="field">
+          <label for="phone">Teléfono</label>
+          <input type="tel" id="phone" name="phone" required>
+        </div>
+      </div>
+      <div class="field">
+        <label for="location">Sede de preferencia</label>
+        <select id="location" name="location">
+          <option>Guadalupe</option>
+          <option>Heredia</option>
+          <option>Alajuela</option>
+          <option>Desamparados</option>
+          <option>Aún no sé</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="message">¿En qué podemos ayudarte?</label>
+        <textarea id="message" name="message" rows="4"></textarea>
+      </div>
+      <button type="submit" class="btn primary" style="border:none; cursor:pointer;">Enviar mensaje</button>
+      <p id="form-success" style="display:none; margin-top:16px; color:var(--sage-deep);">Gracias — recibimos tu mensaje y te contactaremos pronto.</p>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div>
+      <h4>Rejuvenese</h4>
+      <p>Medicina estética en San José, Heredia y Alajuela, Costa Rica.</p>
+    </div>
+    <div>
+      <h4>Sitio</h4>
+      <p><a href="nosotros.html">Nosotros</a></p>
+      <p><a href="servicios.html">Servicios</a></p>
+      <p><a href="contacto.html">Contacto</a></p>
+    </div>
+    <div>
+      <h4>Citas</h4>
+      <p><a href="tel:+50640400808">+506 4040 0808</a></p>
+      <p>Lunes a sábado</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p class="disclaimer">El contenido de este sitio es informativo y educativo; no sustituye una valoración médica presencial. Los resultados de cualquier tratamiento varían según cada persona.</p>
+    <p>© 2026 Clínica Rejuvenese</p>
+  </div>
+</footer>
+
+</body>
+</html>
+
+[index.html](https://github.com/user-attachments/files/31931669/index.html)
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Clínica Rejuvenese · Medicina estética en Costa Rica</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-nav">
+  <div class="nav-inner">
+    <a href="index.html" class="brand">Rejuvenese</a>
+    <nav class="links">
+      <a href="index.html" class="active">Inicio</a>
+      <a href="nosotros.html">Nosotros</a>
+      <a href="servicios.html">Servicios</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div>
+    <p class="eyebrow">Medicina estética · San José, Costa Rica</p>
+    <h1>El tiempo deja huella.<br>Nosotras cuidamos cómo se nota.</h1>
+    <p class="lede">En Rejuvenese acompañamos procesos de rejuvenecimiento facial y corporal con criterio médico, sin promesas exageradas — solo tratamientos pensados para cada piel y cada momento de vida.</p>
+    <div class="cta-row">
+      <a href="contacto.html" class="btn primary">Agendar valoración</a>
+      <a href="servicios.html" class="link-gold">Ver tratamientos →</a>
+    </div>
+  </div>
+  <div class="hero-figure">
+    <svg viewBox="0 0 360 420" xmlns="http://www.w3.org/2000/svg" class="leaf-motif">
+      <path d="M180 30 C 260 90, 300 190, 220 300 C 180 355, 120 385, 70 400" fill="none" stroke="#8B9A82" stroke-width="1.4"/>
+      <path d="M180 30 C 100 90, 60 190, 140 300 C 180 355, 240 385, 290 400" fill="none" stroke="#A9824F" stroke-width="1.4"/>
+      <path d="M180 30 L180 400" stroke="#3F4B3B" stroke-width="1" stroke-dasharray="2 6"/>
+      <circle cx="180" cy="30" r="4" fill="#A9824F"/>
+      <circle cx="70" cy="400" r="3" fill="#8B9A82"/>
+      <circle cx="290" cy="400" r="3" fill="#8B9A82"/>
+    </svg>
+  </div>
+</section>
+
+<hr class="rule">
+
+<section>
+  <div class="section-head">
+    <p class="eyebrow">Qué tratamos</p>
+    <h2>Tres formas de acompañar tu piel</h2>
+    <p>De lo preventivo a lo quirúrgico, cada camino empieza con una valoración honesta sobre qué necesitas y qué no.</p>
+  </div>
+  <div class="service-list">
+    <div class="service-row">
+      <h3>Rejuvenecimiento facial</h3>
+      <div>
+        <p class="tag">No quirúrgico</p>
+        <p>Tratamientos para arrugas, manchas y pérdida de firmeza: ácido hialurónico, rellenos dérmicos y protocolos de rejuvenecimiento facial total.</p>
+      </div>
+    </div>
+    <div class="service-row">
+      <h3>Contorno y firmeza corporal</h3>
+      <div>
+        <p class="tag">No quirúrgico</p>
+        <p>Tecnología para tonificar y redefinir sin pasar por quirófano, con planes que se ajustan a tu ritmo de recuperación.</p>
+      </div>
+    </div>
+    <div class="service-row">
+      <h3>Procedimientos quirúrgicos</h3>
+      <div>
+        <p class="tag">Con especialista</p>
+        <p>Para cambios más definitivos, coordinamos con cirujanos certificados y te acompañamos en todo el proceso pre y post operatorio.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="rule">
+
+<section class="tight">
+  <div class="section-head">
+    <p class="eyebrow">Dónde estamos</p>
+    <h2>Cuatro sedes en el Valle Central</h2>
+  </div>
+  <div class="locations-grid">
+    <div class="location-card">
+      <h3>Guadalupe</h3>
+      <p class="region">San José</p>
+      <p>Uniplaza Mall, local 19, diagonal.</p>
+    </div>
+    <div class="location-card">
+      <h3>Heredia</h3>
+      <p class="region">Heredia</p>
+      <p>Centro Comercial Gariana, diagonal a Walmart.</p>
+    </div>
+    <div class="location-card">
+      <h3>Alajuela</h3>
+      <p class="region">Alajuela</p>
+      <p>Centro Comercial Mango Plaza, local #8.</p>
+    </div>
+    <div class="location-card">
+      <h3>Desamparados</h3>
+      <p class="region">San José</p>
+      <p>200m al norte de la Rotonda de Desamparados, 2º piso, local #32.</p>
+    </div>
+  </div>
+  <div style="max-width:1120px; margin:32px auto 0;">
+    <a href="contacto.html" class="link-gold">Ver mapa y datos de contacto →</a>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div>
+      <h4>Rejuvenese</h4>
+      <p>Medicina estética en San José, Heredia y Alajuela, Costa Rica.</p>
+    </div>
+    <div>
+      <h4>Sitio</h4>
+      <p><a href="nosotros.html">Nosotros</a></p>
+      <p><a href="servicios.html">Servicios</a></p>
+      <p><a href="contacto.html">Contacto</a></p>
+    </div>
+    <div>
+      <h4>Citas</h4>
+      <p><a href="tel:+50640400808">+506 4040 0808</a></p>
+      <p>Lunes a sábado</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p class="disclaimer">El contenido de este sitio es informativo y educativo; no sustituye una valoración médica presencial. Los resultados de cualquier tratamiento varían según cada persona.</p>
+    <p>© 2026 Clínica Rejuvenese</p>
+  </div>
+</footer>
+
+</body>
+</html>
+
+[nosotros.html](https://github.com/user-attachments/files/31931678/nosotros.html)
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nosotros · Clínica Rejuvenese</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-nav">
+  <div class="nav-inner">
+    <a href="index.html" class="brand">Rejuvenese</a>
+    <nav class="links">
+      <a href="index.html">Inicio</a>
+      <a href="nosotros.html" class="active">Nosotros</a>
+      <a href="servicios.html">Servicios</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero" style="grid-template-columns:1fr; max-width:900px; padding-bottom:40px;">
+  <div>
+    <p class="eyebrow">Nosotros</p>
+    <h1>Cuidado con criterio, no con presión de venta</h1>
+    <p class="lede">Rejuvenese nació para ofrecer medicina estética accesible en varias zonas del Valle Central, sin perder de vista que cada tratamiento empieza con una conversación honesta sobre expectativas realistas.</p>
+  </div>
+</section>
+
+<hr class="rule">
+
+<section>
+  <div class="split">
+    <div>
+      <p class="eyebrow">Nuestro enfoque</p>
+      <h2>La valoración va antes que el procedimiento</h2>
+    </div>
+    <div>
+      <p>Antes de recomendar cualquier tratamiento, revisamos tu piel, tu historial y lo que realmente buscas lograr. No todos los procedimientos son para todas las personas, y decir "esto no es para ti" también es parte del cuidado.</p>
+      <p>Trabajamos con protocolos no quirúrgicos en nuestras cuatro sedes, y coordinamos con especialistas certificados cuando el caso requiere cirugía, para que tengas un solo punto de contacto durante todo el proceso.</p>
+    </div>
+  </div>
+</section>
+
+<hr class="rule">
+
+<section class="tight">
+  <div class="section-head">
+    <p class="eyebrow">Lo que guía nuestro trabajo</p>
+    <h2>Tres principios simples</h2>
+  </div>
+  <div class="values-grid">
+    <div class="value-item">
+      <h3>Expectativas claras</h3>
+      <p>Te explicamos qué puede lograr un tratamiento y qué no, antes de que decidas.</p>
+    </div>
+    <div class="value-item">
+      <h3>Seguimiento real</h3>
+      <p>El acompañamiento no termina cuando sales de la sede; damos seguimiento a tu recuperación.</p>
+    </div>
+    <div class="value-item">
+      <h3>Cercanía geográfica</h3>
+      <p>Cuatro sedes en el Valle Central para que la constancia de un tratamiento no dependa de un viaje largo.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div>
+      <h4>Rejuvenese</h4>
+      <p>Medicina estética en San José, Heredia y Alajuela, Costa Rica.</p>
+    </div>
+    <div>
+      <h4>Sitio</h4>
+      <p><a href="nosotros.html">Nosotros</a></p>
+      <p><a href="servicios.html">Servicios</a></p>
+      <p><a href="contacto.html">Contacto</a></p>
+    </div>
+    <div>
+      <h4>Citas</h4>
+      <p><a href="tel:+50640400808">+506 4040 0808</a></p>
+      <p>Lunes a sábado</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p class="disclaimer">El contenido de este sitio es informativo y educativo; no sustituye una valoración médica presencial. Los resultados de cualquier tratamiento varían según cada persona.</p>
+    <p>© 2026 Clínica Rejuvenese</p>
+  </div>
+</footer>
+
+</body>
+</html>
+
+[servicios.html](https://github.com/user-attachments/files/31931687/servicios.html)
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Servicios · Clínica Rejuvenese</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-nav">
+  <div class="nav-inner">
+    <a href="index.html" class="brand">Rejuvenese</a>
+    <nav class="links">
+      <a href="index.html">Inicio</a>
+      <a href="nosotros.html">Nosotros</a>
+      <a href="servicios.html" class="active">Servicios</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero" style="grid-template-columns:1fr; max-width:900px; padding-bottom:30px;">
+  <div>
+    <p class="eyebrow">Servicios</p>
+    <h1>Tratamientos por categoría</h1>
+    <p class="lede">Los precios y la disponibilidad varían por sede — te los confirmamos en la valoración inicial.</p>
+  </div>
+</section>
+
+<hr class="rule">
+
+<section class="tight">
+  <div class="section-head">
+    <p class="eyebrow">Facial</p>
+    <h2>Rejuvenecimiento facial</h2>
+  </div>
+  <div class="service-list">
+    <div class="service-row">
+      <h3>Rejuvenecimiento facial total</h3>
+      <div>
+        <p>Protocolo combinado para mejorar textura, firmeza y luminosidad de la piel del rostro.</p>
+      </div>
+    </div>
+    <div class="service-row">
+      <h3>Ácido hialurónico</h3>
+      <div>
+        <p>Hidratación profunda y restitución de volumen en zonas específicas del rostro.</p>
+      </div>
+    </div>
+    <div class="service-row">
+      <h3>Rellenos dérmicos</h3>
+      <div>
+        <p>Corrección de surcos y líneas de expresión con resultados naturales.</p>
+      </div>
+    </div>
+    <div class="service-row">
+      <h3>Tratamiento para arrugas</h3>
+      <div>
+        <p>Opciones no quirúrgicas para suavizar arrugas de expresión y líneas finas.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="rule">
+
+<section class="tight">
+  <div class="section-head">
+    <p class="eyebrow">Corporal</p>
+    <h2>Contorno y firmeza</h2>
+  </div>
+  <div class="service-list">
+    <div class="service-row">
+      <h3>Contorno corporal no invasivo</h3>
+      <div>
+        <p>Tecnología para tonificar y redefinir zonas específicas sin tiempo de recuperación.</p>
+      </div>
+    </div>
+    <div class="service-row">
+      <h3>Firmeza de piel</h3>
+      <div>
+        <p>Protocolos para mejorar la elasticidad y reducir la flacidez leve a moderada.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="rule">
+
+<section class="tight">
+  <div class="section-head">
+    <p class="eyebrow">Con especialista</p>
+    <h2>Procedimientos quirúrgicos</h2>
+    <p>Coordinamos tu caso con cirujanos plásticos certificados y te acompañamos en la preparación y recuperación.</p>
+  </div>
+  <div class="service-list">
+    <div class="service-row">
+      <h3>Cirugía facial y corporal</h3>
+      <ul>
+        <li>Aumento y reducción de senos</li>
+        <li>Abdominoplastía</li>
+        <li>Liposucción</li>
+        <li>Blefaroplastía y rinoplastía</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="tight" style="text-align:center;">
+  <h2 style="margin-bottom:20px;">¿No sabes por dónde empezar?</h2>
+  <a href="contacto.html" class="btn primary">Agendar una valoración</a>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div>
+      <h4>Rejuvenese</h4>
+      <p>Medicina estética en San José, Heredia y Alajuela, Costa Rica.</p>
+    </div>
+    <div>
+      <h4>Sitio</h4>
+      <p><a href="nosotros.html">Nosotros</a></p>
+      <p><a href="servicios.html">Servicios</a></p>
+      <p><a href="contacto.html">Contacto</a></p>
+    </div>
+    <div>
+      <h4>Citas</h4>
+      <p><a href="tel:+50640400808">+506 4040 0808</a></p>
+      <p>Lunes a sábado</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p class="disclaimer">El contenido de este sitio es informativo y educativo; no sustituye una valoración médica presencial. Los resultados de cualquier tratamiento varían según cada persona.</p>
+    <p>© 2026 Clínica Rejuvenese</p>
+  </div>
+</footer>
+
+</body>
+</html>
+
+[style.css](https://github.com/user-attachments/files/31931688/style.css)
+
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Work+Sans:wght@300;400;500&display=swap');
 
 :root{
