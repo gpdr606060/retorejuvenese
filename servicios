@@ -1,1 +1,141 @@
 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Servicios · Clínica Rejuvenese</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-nav">
+  <div class="nav-inner">
+    <a href="index.html" class="brand">Rejuvenese</a>
+    <nav class="links">
+      <a href="index.html">Inicio</a>
+      <a href="nosotros.html">Nosotros</a>
+      <a href="servicios.html" class="active">Servicios</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero" style="grid-template-columns:1fr; max-width:900px; padding-bottom:30px;">
+  <div>
+    <p class="eyebrow">Servicios</p>
+    <h1>Tratamientos por categoría</h1>
+    <p class="lede">Los precios y la disponibilidad varían por sede — te los confirmamos en la valoración inicial.</p>
+  </div>
+</section>
+
+<hr class="rule">
+
+<section class="tight">
+  <div class="section-head">
+    <p class="eyebrow">Facial</p>
+    <h2>Rejuvenecimiento facial</h2>
+  </div>
+  <div class="service-list">
+    <div class="service-row">
+      <h3>Rejuvenecimiento facial total</h3>
+      <div>
+        <p>Protocolo combinado para mejorar textura, firmeza y luminosidad de la piel del rostro.</p>
+      </div>
+    </div>
+    <div class="service-row">
+      <h3>Ácido hialurónico</h3>
+      <div>
+        <p>Hidratación profunda y restitución de volumen en zonas específicas del rostro.</p>
+      </div>
+    </div>
+    <div class="service-row">
+      <h3>Rellenos dérmicos</h3>
+      <div>
+        <p>Corrección de surcos y líneas de expresión con resultados naturales.</p>
+      </div>
+    </div>
+    <div class="service-row">
+      <h3>Tratamiento para arrugas</h3>
+      <div>
+        <p>Opciones no quirúrgicas para suavizar arrugas de expresión y líneas finas.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="rule">
+
+<section class="tight">
+  <div class="section-head">
+    <p class="eyebrow">Corporal</p>
+    <h2>Contorno y firmeza</h2>
+  </div>
+  <div class="service-list">
+    <div class="service-row">
+      <h3>Contorno corporal no invasivo</h3>
+      <div>
+        <p>Tecnología para tonificar y redefinir zonas específicas sin tiempo de recuperación.</p>
+      </div>
+    </div>
+    <div class="service-row">
+      <h3>Firmeza de piel</h3>
+      <div>
+        <p>Protocolos para mejorar la elasticidad y reducir la flacidez leve a moderada.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="rule">
+
+<section class="tight">
+  <div class="section-head">
+    <p class="eyebrow">Con especialista</p>
+    <h2>Procedimientos quirúrgicos</h2>
+    <p>Coordinamos tu caso con cirujanos plásticos certificados y te acompañamos en la preparación y recuperación.</p>
+  </div>
+  <div class="service-list">
+    <div class="service-row">
+      <h3>Cirugía facial y corporal</h3>
+      <ul>
+        <li>Aumento y reducción de senos</li>
+        <li>Abdominoplastía</li>
+        <li>Liposucción</li>
+        <li>Blefaroplastía y rinoplastía</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="tight" style="text-align:center;">
+  <h2 style="margin-bottom:20px;">¿No sabes por dónde empezar?</h2>
+  <a href="contacto.html" class="btn primary">Agendar una valoración</a>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div>
+      <h4>Rejuvenese</h4>
+      <p>Medicina estética en San José, Heredia y Alajuela, Costa Rica.</p>
+    </div>
+    <div>
+      <h4>Sitio</h4>
+      <p><a href="nosotros.html">Nosotros</a></p>
+      <p><a href="servicios.html">Servicios</a></p>
+      <p><a href="contacto.html">Contacto</a></p>
+    </div>
+    <div>
+      <h4>Citas</h4>
+      <p><a href="tel:+50640400808">+506 4040 0808</a></p>
+      <p>Lunes a sábado</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p class="disclaimer">El contenido de este sitio es informativo y educativo; no sustituye una valoración médica presencial. Los resultados de cualquier tratamiento varían según cada persona.</p>
+    <p>© 2026 Clínica Rejuvenese</p>
+  </div>
+</footer>
+
+</body>
+</html>
