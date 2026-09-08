@@ -1,1 +1,95 @@
 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nosotros · Clínica Rejuvenese</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-nav">
+  <div class="nav-inner">
+    <a href="index.html" class="brand">Rejuvenese</a>
+    <nav class="links">
+      <a href="index.html">Inicio</a>
+      <a href="nosotros.html" class="active">Nosotros</a>
+      <a href="servicios.html">Servicios</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero" style="grid-template-columns:1fr; max-width:900px; padding-bottom:40px;">
+  <div>
+    <p class="eyebrow">Nosotros</p>
+    <h1>Cuidado con criterio, no con presión de venta</h1>
+    <p class="lede">Rejuvenese nació para ofrecer medicina estética accesible en varias zonas del Valle Central, sin perder de vista que cada tratamiento empieza con una conversación honesta sobre expectativas realistas.</p>
+  </div>
+</section>
+
+<hr class="rule">
+
+<section>
+  <div class="split">
+    <div>
+      <p class="eyebrow">Nuestro enfoque</p>
+      <h2>La valoración va antes que el procedimiento</h2>
+    </div>
+    <div>
+      <p>Antes de recomendar cualquier tratamiento, revisamos tu piel, tu historial y lo que realmente buscas lograr. No todos los procedimientos son para todas las personas, y decir "esto no es para ti" también es parte del cuidado.</p>
+      <p>Trabajamos con protocolos no quirúrgicos en nuestras cuatro sedes, y coordinamos con especialistas certificados cuando el caso requiere cirugía, para que tengas un solo punto de contacto durante todo el proceso.</p>
+    </div>
+  </div>
+</section>
+
+<hr class="rule">
+
+<section class="tight">
+  <div class="section-head">
+    <p class="eyebrow">Lo que guía nuestro trabajo</p>
+    <h2>Tres principios simples</h2>
+  </div>
+  <div class="values-grid">
+    <div class="value-item">
+      <h3>Expectativas claras</h3>
+      <p>Te explicamos qué puede lograr un tratamiento y qué no, antes de que decidas.</p>
+    </div>
+    <div class="value-item">
+      <h3>Seguimiento real</h3>
+      <p>El acompañamiento no termina cuando sales de la sede; damos seguimiento a tu recuperación.</p>
+    </div>
+    <div class="value-item">
+      <h3>Cercanía geográfica</h3>
+      <p>Cuatro sedes en el Valle Central para que la constancia de un tratamiento no dependa de un viaje largo.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div>
+      <h4>Rejuvenese</h4>
+      <p>Medicina estética en San José, Heredia y Alajuela, Costa Rica.</p>
+    </div>
+    <div>
+      <h4>Sitio</h4>
+      <p><a href="nosotros.html">Nosotros</a></p>
+      <p><a href="servicios.html">Servicios</a></p>
+      <p><a href="contacto.html">Contacto</a></p>
+    </div>
+    <div>
+      <h4>Citas</h4>
+      <p><a href="tel:+50640400808">+506 4040 0808</a></p>
+      <p>Lunes a sábado</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p class="disclaimer">El contenido de este sitio es informativo y educativo; no sustituye una valoración médica presencial. Los resultados de cualquier tratamiento varían según cada persona.</p>
+    <p>© 2026 Clínica Rejuvenese</p>
+  </div>
+</footer>
+
+</body>
+</html>
